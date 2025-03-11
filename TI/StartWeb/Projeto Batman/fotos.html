@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Batman</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="./logo.jpg" alt="Logo do Batman">
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div class="gallery-container">
+        <div class="main-image">
+            <img id="main-img" src="./imagem-galeria1.jpg" alt="Foto 1">
+        </div>
+        <div class="thumbnails">
+            <img src="./imagem-galeria1.jpg" alt="Foto 1" onclick="changeImage('./imagem-galeria1.jpg')">
+            <img src="./imagem-galeria2.jpg" alt="Foto2" onclick="changeImage('./imagem-galeria2.jpg')">
+            <img src="./imagem-galeria3.jpg" alt="Fot 3" onclick="changeImage('./imagem-galeria3.jpg')">
+            <img src="./imagem-galeria4.jpg" alt="Foto 4" onclick="changeImage('./imagem-galeria4.jpg')">
+            <img src="./imagem-galeria5.jpg" alt="Foto 5" onclick="changeImage('./imagem-galeria5.jpg')">
+            <img src="./imagem-galeria6.jpg" alt="Foto 6" onclick="changeImage('./imagem-galeria6.jpg')">
+            <img src="./imagem-galeria7.jpg" alt="Fot 7" onclick="changeImage('./imagem-galeria7.jpg')">
+            <img src="./imagem-galeria8.jpg" alt="Foto 8" onclick="changeImage('./imagem-galeria8.jpg')">
+        </div>
+    </div>
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./logo.jpg">
+        <span>Todos os direitos reservados</span>
+        <span>Desenvolvido por: Nayara Abdon ©</span>
+
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
